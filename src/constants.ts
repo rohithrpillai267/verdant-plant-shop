@@ -1,4 +1,4 @@
-import { Plant, Testimonial } from './types';
+import { Plant } from './types';
 
 export const PLANTS: Plant[] = [
   {
@@ -87,29 +87,7 @@ export const PLANTS: Plant[] = [
   }
 ];
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: '1',
-    name: 'Sarah Johnson',
-    role: 'Interior Designer',
-    content: 'Verdant has the best selection of healthy plants. My clients love them!',
-    avatar: 'https://i.pravatar.cc/150?u=sarah',
-  },
-  {
-    id: '2',
-    name: 'Michael Chen',
-    role: 'Plant Enthusiast',
-    content: 'The packaging was incredible. Not a single leaf was damaged during shipping.',
-    avatar: 'https://i.pravatar.cc/150?u=michael',
-  },
-  {
-    id: '3',
-    name: 'Emma Wilson',
-    role: 'Home Decorator',
-    content: 'Beautiful plants and even better customer service. Highly recommend!',
-    avatar: 'https://i.pravatar.cc/150?u=emma',
-  }
-];
+
 
 export const CATEGORIES = [
   { name: 'Indoor', icon: 'Leaf' },
